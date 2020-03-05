@@ -17,8 +17,8 @@ public class Palindrome {
 	        temp=temp+ch[j];
 	      }
 	    }
-	    System.out.println(temp);
-	    System.out.println(st);
+	  //  System.out.println(temp);
+	  //  System.out.println(st);
 	      if(st.equals(temp)) {
 	    	  return true;
 	      }

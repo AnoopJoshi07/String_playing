@@ -6,7 +6,7 @@ public class CamelCase {
 
 	public static String CamelCasee(String str) {
 		str = str.replaceAll("\\p{Punct}", " ");
-		System.out.println(str);
+//		System.out.println(str);
 		String[] starr = str.split(" ");
 		String res = starr[0];
 		for (int i = 1; i < starr.length; i++) {

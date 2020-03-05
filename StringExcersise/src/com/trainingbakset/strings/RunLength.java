@@ -7,7 +7,7 @@ public class RunLength {
 	public static String Length(String str) {
 		char[] ch = str.toCharArray();
 		int len = ch.length;
-		System.out.println(len);
+		//System.out.println(len);
 		String res = "";
 		int start = 0;
 		while (len > 0) {
@@ -17,14 +17,14 @@ public class RunLength {
 			}
 			for (int i = start + 1; i < ch.length; i++) {
 
-				System.out.println(ch[i - 1] + " " + ch[i]);
+				//System.out.println(ch[i - 1] + " " + ch[i]);
 				if (ch[i - 1] == ch[i]) {
 					count++;
 				} 
 				else {
 					res = res + count + ch[i - 1];
 					start = start + count;
-					System.out.println(start);
+					//System.out.println(start);
 					break;
 				}
 			}
